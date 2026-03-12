@@ -1,0 +1,73 @@
+2026-03-13 01:47:52  INFO      ============================================================
+2026-03-13 01:47:52  INFO        ZeroTrust Daemon STARTING
+2026-03-13 01:47:52  INFO        Platform : win32
+2026-03-13 01:47:52  INFO        Interface: auto-detect
+2026-03-13 01:47:52  INFO        Log file : zerotrust.log
+2026-03-13 01:47:52  INFO      ============================================================
+2026-03-13 01:47:52  INFO      [ARP] Monitor starting on interface: None
+2026-03-13 01:47:52  INFO      [THREAD] ARP-Monitor started
+2026-03-13 01:47:52  INFO      [ARP] Live ARP sniffing active (wired + wireless)
+2026-03-13 01:47:52  INFO      [PortScan] Detector started
+2026-03-13 01:47:52  INFO      [THREAD] PortScan-Detector started
+2026-03-13 01:47:52  INFO      [PortScan] Live SYN scan detection active
+2026-03-13 01:47:52  INFO      [Traffic] Analyzer starting
+2026-03-13 01:47:52  INFO      [THREAD] Traffic-Analyzer started
+2026-03-13 01:47:52  INFO      [DAEMON] All systems online. Monitoring network...
+2026-03-13 01:47:52  INFO      [Traffic] Deep packet inspection active
+2026-03-13 01:47:52  WARNING   [DNS Tunnel] 10.245.17.135 DNS query size 164 bytes — possible data exfiltration
+2026-03-13 01:47:52  INFO      [Firewall] 10.245.17.135 BLOCKED at OS firewall level
+2026-03-13 01:47:52  CRITICAL  [BLOCKED] 10.245.17.135 (unknown) | Reason: DNS tunneling suspected: oversized DNS query (164 bytes) | Severity: HIGH
+2026-03-13 01:48:06  INFO      [NEW DEVICE] Unknown Device — IP: 10.245.17.135  MAC: A2:50:E7:C7:59:30
+2026-03-13 01:48:06  INFO      [ALLOW] 10.245.17.135 passed verification (risk=25)
+2026-03-13 01:48:06  INFO      [NEW DEVICE] LAPTOP-KHJESBPF — IP: 10.245.17.98  MAC: A8:E2:91:94:A7:0C
+2026-03-13 01:48:06  INFO      [ALLOW] 10.245.17.98 passed verification (risk=0)
+2026-03-13 01:48:23  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 01:48:52  INFO      [HEARTBEAT] Uptime=60s | Devices=2 | Blocked=1 | Registry=3
+2026-03-13 01:48:57  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 01:49:30  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 01:49:52  INFO      [HEARTBEAT] Uptime=120s | Devices=2 | Blocked=1 | Registry=3
+2026-03-13 01:50:03  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 01:50:35  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 01:50:52  INFO      [HEARTBEAT] Uptime=180s | Devices=2 | Blocked=1 | Registry=3
+2026-03-13 01:51:08  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 01:51:41  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 01:51:52  INFO      [HEARTBEAT] Uptime=240s | Devices=2 | Blocked=1 | Registry=3
+2026-03-13 01:52:15  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 01:52:48  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 01:52:52  INFO      [HEARTBEAT] Uptime=300s | Devices=2 | Blocked=1 | Registry=3
+2026-03-13 01:53:21  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 01:53:35  CRITICAL  [DDoS] 10.245.17.98 generating 501 packets/sec
+2026-03-13 01:53:35  INFO      [Firewall] 10.245.17.98 BLOCKED at OS firewall level
+2026-03-13 01:53:35  CRITICAL  [BLOCKED] 10.245.17.98 (A8:E2:91:94:A7:0C) | Reason: DDoS/flood detected: 501 packets/sec — possible botnet participation | Severity: CRITICAL
+2026-03-13 01:53:52  INFO      [HEARTBEAT] Uptime=360s | Devices=2 | Blocked=2 | Registry=3
+2026-03-13 01:53:54  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 01:54:27  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 01:54:52  INFO      [HEARTBEAT] Uptime=420s | Devices=2 | Blocked=2 | Registry=3
+2026-03-13 01:55:01  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 01:55:33  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 01:55:52  INFO      [HEARTBEAT] Uptime=480s | Devices=2 | Blocked=2 | Registry=3
+2026-03-13 01:56:06  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 01:56:40  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 01:56:52  INFO      [HEARTBEAT] Uptime=540s | Devices=2 | Blocked=2 | Registry=3
+2026-03-13 01:57:13  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 01:57:46  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 01:57:52  INFO      [HEARTBEAT] Uptime=600s | Devices=2 | Blocked=2 | Registry=3
+2026-03-13 01:58:21  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 01:58:53  INFO      [HEARTBEAT] Uptime=660s | Devices=2 | Blocked=2 | Registry=3
+2026-03-13 01:58:54  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 01:59:32  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 01:59:53  INFO      [HEARTBEAT] Uptime=720s | Devices=2 | Blocked=2 | Registry=3
+2026-03-13 02:00:05  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 02:00:38  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 02:00:53  INFO      [HEARTBEAT] Uptime=780s | Devices=2 | Blocked=2 | Registry=3
+2026-03-13 02:01:11  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 02:01:43  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 02:01:53  INFO      [HEARTBEAT] Uptime=840s | Devices=2 | Blocked=2 | Registry=3
+2026-03-13 02:02:16  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 02:02:49  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 02:02:53  INFO      [HEARTBEAT] Uptime=900s | Devices=2 | Blocked=2 | Registry=3
+2026-03-13 02:03:22  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 02:03:53  INFO      [HEARTBEAT] Uptime=960s | Devices=2 | Blocked=2 | Registry=3
+2026-03-13 02:03:54  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 02:04:27  DEBUG     [ARP] Sweeping subnet 192.168.1.0/24
+2026-03-13 02:04:53  INFO      [HEARTBEAT] Uptime=1020s | Devices=2 | Blocked=2 | Registry=3

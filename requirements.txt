@@ -1,0 +1,25 @@
+# ZeroTrust Daemon — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core packet capture and network analysis
+scapy>=2.5.0          # Packet sniffing, ARP monitoring, TCP analysis
+
+# Network interface detection
+netifaces>=0.11.0     # Cross-platform network interface enumeration
+
+# Optional but recommended — rich terminal output
+rich>=13.0.0          # Colored terminal output (fallback logging)
+
+# All other dependencies (urllib, socket, subprocess, threading,
+# logging, json, os, sys, signal, curses) are Python standard library.
+
+# ── PLATFORM NOTES ────────────────────────────────────────────────
+# Linux  : sudo pip install -r requirements.txt
+#          sudo apt install iptables arptables (usually pre-installed)
+#
+# macOS  : sudo pip install -r requirements.txt
+#          pf firewall is built-in (no extra install needed)
+#
+# Windows: pip install -r requirements.txt (run as Administrator)
+#          Npcap required for Scapy: https://npcap.com/
+#          Windows Firewall (netsh) is built-in
